@@ -1,56 +1,117 @@
-# Welcome to your Expo app 👋
+# Sign In UI using React Native with Expo
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Overview
 
-## Get started
+This project recreates the Osler AI Telehealth Sign In UI based on the provided Dribbble design using React Native and Expo.
 
-1. Install dependencies
+### Dribbble Reference
 
-   ```bash
-   npm install
-   ```
+https://dribbble.com/shots/24783022-osler-AI-Telehealth-Telemedicine-App-Sign-In-Sign-Up-UI
 
-2. Start the app
+The goal of this assignment was to closely match the original design while using only core React Native components and maintaining a clean, responsive layout.
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## Technologies Used
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+* React Native
+* Expo
+* TypeScript
+* Expo Vector Icons
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## Features
 
-When you're ready, run:
+* Custom app logo section
+* Sign In heading and description
+* Email input field
+* Password input field with show/hide password functionality
+* Sign In button
+* Social login buttons
+* Sign Up action
+* Forgot Password action
+* Responsive mobile layout
+* Safe area support
+* Keyboard handling support
 
-```bash
-npm run reset-project
+---
+
+## Project Structure
+
+```text
+app/
+├── index.tsx
+├── _layout.tsx
+└── assets/
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-### Other setup steps
+## Installation
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+1. Clone the repository
 
-## Learn more
+```bash
+git clone https://github.com/tejasderle24/Sign-In-Screen.git
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+2. Install dependencies
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+npm install
+```
 
-## Join the community
+3. Start Expo
 
-Join our community of developers creating universal apps.
+```bash
+npx expo start
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+## Design Decisions
+
+* Used only core React Native components as required.
+* Implemented responsive spacing using Flexbox.
+* Added keyboard avoidance for better mobile usability.
+* Replaced emoji icons with Expo Vector Icons for a more professional appearance.
+* Maintained consistent typography, spacing, and alignment to match the original design.
+
+---
+
+## Screenshots
+
+### Authentication Screen
+
+Add your screenshot here:
+
+```text
+assets/screenshots/signin-screen.png
+```
+
+Example:
+
+![Authentication Screen](./assets/screenshots/signin-screen.png)
+
+---
+
+## Requirements Checklist
+
+* [x] React Native with Expo
+* [x] Core React Native components only
+* [x] Responsive mobile layout
+* [x] App logo section
+* [x] Heading and subheading
+* [x] Email input field
+* [x] Password input field
+* [x] Sign In button
+* [x] Social login buttons
+* [x] Sign Up action
+* [x] Forgot Password action
+
+---
+
+## Author
+
+Developed as part of the React Native UI Recreation Assignment.
